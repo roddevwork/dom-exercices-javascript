@@ -2,10 +2,6 @@
 :root {
   --main-font: sans-serif;
   --font-size: 16px;
-  --main-color: #f7df1e;
-  --second-color: #222;
-  --main-modal-color: rgb(247 222 30 / 85%);
-  --second-modal-color: rgb(34 34 34 / 85%);
   --text-color: #fff;
   --second-text-color: #f7df1e;
   --background-color: #333;
@@ -24,12 +20,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -65,17 +57,7 @@ video {
 .header h1 {
   margin: 0 auto;
   text-align: center;
-}
-
-.section {
-  padding: 2rem;
-  padding-top: 4rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width: var(--container-width);
-  min-height: 100vh;
-  text-align: center;
+  font-size: 1.5rem;
 }
 
 .panel-aside {
@@ -83,16 +65,10 @@ video {
   z-index: 998;
   inset: 0;
   width: 100%;
-  background-color: var(--second-modal-color);
+  background-color: var(--second-background-color);
   opacity: 0;
   visibility: hidden;
   transition: transform 0.5s ease, opacity 0.5s ease;
-
-  /* transform: translate(0,-100%); */
-
-  /* transform: translate(0, 100%); */
-
-  /* transform: translate(100%, 0); */
   transform: translate(-100%, 0);
 }
 
@@ -114,7 +90,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-color);
+  background-color: var(--second-text-color);
 }
 
 .menu {
@@ -139,6 +115,75 @@ video {
 
 .menu a:hover {
   font-weight: bold;
-  color: var(--second-color);
-  background-color: var(--main-modal-color);
+  color: var(--second-background-color);
+  background-color: var(--second-text-color);
+}
+
+/** Main */
+.section {
+  padding: 2rem;
+  padding-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: var(--container-width);
+  min-height: 100vh;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.section1__digital-clock,
+.section1__sound-alarm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section1 h3,
+.digital-clock {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.section1__btn {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background: var(--text-color);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/** Media  */
+
+@media screen and (width >= 640px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .panel-btn {
+    top: 1vh;
+    right: 1vw;
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .panel-aside {
+    padding-top: 40px;
+  }
+
+  .section1 {
+    font-size: 2rem;
+  }
 }
