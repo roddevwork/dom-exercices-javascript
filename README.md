@@ -16,13 +16,13 @@
 
 ## Description:
 
--Exercises from a JavaScript DOM workshop I did with Html, Css and JavaScript. Using type="module" and the BEM methodology
+-A single page of exercises from manipulate the document object model(DOM) of Javascript. I did with Html, Css and JavaScript. Using type="module" and the BEM methodology.
 
 
 ## Steps:
 
 - First step: Create a menu-hamburger
-- Second step:
+- Second step: Create section one: Digital clock and Sound alarm
 - Third step: 
 - Fourth step: 
 - Fifth step: 
@@ -41,24 +41,14 @@
 
 ## Descripcion:
 
-- Ejercicios de un taller del DOM JavaScript que hice con Html, Css y JavaScript. Utilizando la metodología BEM
+- Una sola página de ejercicios para manipular el modelo de objeto de documento (DOM) de Javascript. Lo hice con Html, Css y JavaScript. Usando type="module" y la metodología BEM
 
-
-- En el curso dieron las bases de cada taller:
-
-  -- Contrucion de fórmulas
-  
-  -- Html básico
-  
-  -- Interacion de js con html
-  
-  -- Reto: Hacer las funciones de lógica. La maquetación y la interación con el usuario en cada taller
 
 
 ## Pasos:
 
 - Primer paso: Crear el menu-hamburguesa
-- Segundo paso: 
+- Segundo paso: Crear seccion uno: Relog digital y Alarma sonora
 - Tercer paso: 
 - Cuarto paso: 
 - Quineto paso:
