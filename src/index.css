@@ -165,6 +165,27 @@ video {
   font-weight: bold;
 }
 
+/* *Eventos del Teclado */
+
+.stage {
+  display: flex;
+  min-height: 50vh;
+  background-color: #222;
+}
+
+.ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: var(--second-text-color);
+}
+
 /** Media  */
 
 @media screen and (width >= 640px) {
@@ -184,6 +205,12 @@ video {
   }
 
   .section1 {
+    font-size: 2rem;
+  }
+
+  .ball {
+    width: 4rem;
+    height: 4rem;
     font-size: 2rem;
   }
 }

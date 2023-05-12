@@ -7,7 +7,7 @@
 
 ## Website:
 
-<!-- - [click here](https://roddevwork.github.io/MY-PROYECT) -->
+- [click here](https://roddevwork.github.io/dom-exercices-javascript/)
 
 <!-- <kbd>
  <img src="imgs/web-index.jpg" alt="home page" width="200px">
