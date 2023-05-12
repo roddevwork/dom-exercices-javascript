@@ -23,7 +23,7 @@
 
 - First step: Create a menu-hamburger
 - Second step: Create section one: Digital clock and Sound alarm
-- Third step: 
+- Third step: Create section two: Keyboard Events
 - Fourth step: 
 - Fifth step: 
 
@@ -49,7 +49,7 @@
 
 - Primer paso: Crear el menu-hamburguesa
 - Segundo paso: Crear seccion uno: Relog digital y Alarma sonora
-- Tercer paso: 
+- Tercer paso: Crear seccion dos: Eventos de teclado
 - Cuarto paso: 
 - Quineto paso:
 

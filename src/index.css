@@ -128,6 +128,7 @@ video {
   width: 100%;
   max-width: var(--container-width);
   min-height: 100vh;
+  text-align: center;
 }
 
 .section1 {
@@ -135,6 +136,10 @@ video {
   flex-direction: column;
   align-items: center;
   gap: 100px;
+}
+
+.section1__digital-clock {
+  margin-top: 50px;
 }
 
 .section1__digital-clock,
@@ -165,7 +170,15 @@ video {
   font-weight: bold;
 }
 
-/* *Eventos del Teclado */
+.section2 h2 {
+  margin-top: 50px;
+}
+
+.section2 article {
+  margin: 20px 0;
+}
+
+/* *Keyboard Events */
 
 .stage {
   display: flex;
