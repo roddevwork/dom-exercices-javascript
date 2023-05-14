@@ -199,6 +199,18 @@ video {
   background-color: var(--second-text-color);
 }
 
+/** Countdown  */
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section3 h2 {
+  margin: 50px 0 20px;
+}
+
 /** Media  */
 
 @media screen and (width >= 640px) {
@@ -224,6 +236,10 @@ video {
   .ball {
     width: 4rem;
     height: 4rem;
+    font-size: 2rem;
+  }
+
+  .section3 {
     font-size: 2rem;
   }
 }
