@@ -211,6 +211,35 @@ video {
   margin: 50px 0 20px;
 }
 
+/** ScrollTopButton */
+.scroll-top-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  right: calc(4.25rem + 1vw);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--second-text-color);
+  color: var(--second-background-color);
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: all 0.3s ease-out;
+}
+
+.scroll-top-btn:hover {
+  background-color: var(--second-background-color);
+  color: var(--second-text-color);
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
 /** Media  */
 
 @media screen and (width >= 640px) {
