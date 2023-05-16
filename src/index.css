@@ -271,4 +271,9 @@ video {
   .section3 {
     font-size: 2rem;
   }
+
+  .scroll-top-btn {
+    bottom: 1vh;
+    right: 1vh;
+  }
 }
