@@ -3,8 +3,10 @@
   --main-font: sans-serif;
   --font-size: 16px;
   --text-color: #fff;
-  --second-text-color: #f7df1e;
+  --text-color-light: #000;
+  --color-yellow: #f7df1e;
   --background-color: #333;
+  --background-color-light: rgb(206 198 198);
   --second-background-color: #222;
   --container-width: 1200px;
 }
@@ -20,14 +22,14 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   overflow-x: hidden;
   background-color: var(--background-color);
   color: var(--text-color);
+  margin: 0;
+  padding: 0;
 }
 
 img,
@@ -51,7 +53,7 @@ video {
   width: 100%;
   padding: 1rem;
   background-color: var(--second-background-color);
-  color: var(--second-text-color);
+  color: var(--color-yellow);
 }
 
 .header h1 {
@@ -90,7 +92,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--second-text-color);
+  background-color: var(--color-yellow);
 }
 
 .menu {
@@ -116,10 +118,10 @@ video {
 .menu a:hover {
   font-weight: bold;
   color: var(--second-background-color);
-  background-color: var(--second-text-color);
+  background-color: var(--color-yellow);
 }
 
-/** Main */
+/*** Main */
 .section {
   padding: 2rem;
   padding-top: 4rem;
@@ -178,7 +180,7 @@ video {
   margin: 20px 0;
 }
 
-/* *Keyboard Events */
+/*** Keyboard Events */
 
 .stage {
   display: flex;
@@ -196,10 +198,10 @@ video {
   font-size: 1rem;
   font-weight: bold;
   border-radius: 50%;
-  background-color: var(--second-text-color);
+  background-color: var(--color-yellow);
 }
 
-/** Countdown  */
+/*** Countdown  */
 
 .section3 {
   display: flex;
@@ -211,7 +213,7 @@ video {
   margin: 50px 0 20px;
 }
 
-/** ScrollTopButton */
+/*** ScrollTopButton */
 .scroll-top-btn {
   position: fixed;
   z-index: 999;
@@ -222,7 +224,7 @@ video {
   border-radius: 50%;
   font-size: 2rem;
   font-weight: bold;
-  background-color: var(--second-text-color);
+  background-color: var(--color-yellow);
   color: var(--second-background-color);
   cursor: pointer;
   outline: 0;
@@ -232,7 +234,7 @@ video {
 
 .scroll-top-btn:hover {
   background-color: var(--second-background-color);
-  color: var(--second-text-color);
+  color: var(--color-yellow);
 }
 
 .hidden {
@@ -240,7 +242,37 @@ video {
   opacity: 0;
 }
 
-/** Media  */
+/*** change-Theme-Btn */
+
+.change-theme-btn {
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  left: 1vh;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--color-yellow);
+  color: var(--text-color-light);
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: all 0.3s ease-out;
+}
+
+.change-theme-btn:hover {
+  background-color: var(--text-color-light);
+  color: var(--color-yellow);
+}
+
+.theme-mode {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+/*** Media  */
 
 @media screen and (width >= 640px) {
   .header h1 {
@@ -273,7 +305,13 @@ video {
   }
 
   .scroll-top-btn {
-    bottom: 1vh;
-    right: 1vh;
+    right: calc(100vw - 50vw);
+  }
+
+  .btn-desktop {
+    top: 1vh;
+    left: 1vw;
+    width: 3.2rem;
+    height: 3.2rem;
   }
 }
