@@ -11,9 +11,10 @@ document.addEventListener("DOMContentLoaded", e => {
   soundAlarm("../public/sounds/alarm_clock.ogg ", "#activate-alarm", "#disable-alarm");
   countDown("countdown", "Jan 01,2024 00:00:00", "Happy new year!!");
   scrollTopButton(".scroll-top-btn");
-  changeTheme(".change-theme-btn", "theme-mode");
 });
 
 document.addEventListener("keydown", e => {
   moveBall(e, ".ball", ".stage");
 });
+
+changeTheme(".change-theme-btn", "theme-mode");
