@@ -291,6 +291,19 @@ video {
   transform: scale(1.5);
 }
 
+/** Tester_Responsive  */
+
+#section5 input {
+  margin-bottom: 10px;
+  width: 300px;
+  font-size: 1rem;
+}
+
+#section5 .btn {
+  width: 100px;
+  margin: 20px;
+}
+
 /*** Media  */
 
 @media screen and (width >= 640px) {
@@ -332,5 +345,16 @@ video {
     left: 1vw;
     width: 3.2rem;
     height: 3.2rem;
+  }
+
+  #section5 input {
+    margin-bottom: 12px;
+    width: 400px;
+    font-size: 2rem;
+  }
+
+  #section5 .btn {
+    width: 120px;
+    margin: 20px;
   }
 }
