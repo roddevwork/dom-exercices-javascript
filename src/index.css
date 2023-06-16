@@ -22,6 +22,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  list-style: none;
 }
 
 body {
