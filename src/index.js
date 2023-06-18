@@ -7,6 +7,7 @@ import changeTheme from "./components/change_theme.js";
 import responsiveMedia from "./components/object_responsive.js";
 import responsiveTester from "./components/tester_responsive.js";
 import userDeviceInfo from "./components/detection_devices.js";
+import networkStatus from "./components/network_detection.js";
 
 document.addEventListener("DOMContentLoaded", e => {
   hamburgerMenu(".panel-btn", ".panel-aside", ".menu a");
@@ -29,3 +30,4 @@ document.addEventListener("keydown", e => {
 });
 
 changeTheme(".change-theme-btn", "theme-mode");
+networkStatus()
