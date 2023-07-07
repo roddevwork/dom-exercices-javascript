@@ -1,3 +1,5 @@
+const detectionNetwork = document.getElementById("detection-network");
+detectionNetwork.textContent = "Connection Restored";
 
 export default function networkStatus() {
   const isOnLine = () => {
