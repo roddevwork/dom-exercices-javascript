@@ -9,6 +9,7 @@ import responsiveTester from "./components/tester_responsive.js";
 import userDeviceInfo from "./components/detection_devices.js";
 import networkStatus from "./components/network_detection.js";
 import webCam from "./components/webcam_detection.js";
+import getGeoLocation from "./components/geolocation.js";
 
 document.addEventListener("DOMContentLoaded", e => {
   hamburgerMenu(".panel-btn", ".panel-aside", ".menu a");
@@ -25,6 +26,7 @@ document.addEventListener("DOMContentLoaded", e => {
   responsiveTester("responsive-tester");
   userDeviceInfo("user-device");
   webCam("webcam");
+  getGeoLocation("geolocation");
 });
 
 document.addEventListener("keydown", e => {
