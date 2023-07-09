@@ -10,6 +10,7 @@ import userDeviceInfo from "./components/detection_devices.js";
 import networkStatus from "./components/network_detection.js";
 import webCam from "./components/webcam_detection.js";
 import getGeoLocation from "./components/geolocation.js";
+import searchFilters from "./components/search_ filters.js";
 
 document.addEventListener("DOMContentLoaded", e => {
   hamburgerMenu(".panel-btn", ".panel-aside", ".menu a");
@@ -27,6 +28,7 @@ document.addEventListener("DOMContentLoaded", e => {
   userDeviceInfo("user-device");
   webCam("webcam");
   getGeoLocation("geolocation");
+  searchFilters(".card-filter", ".card");
 });
 
 document.addEventListener("keydown", e => {

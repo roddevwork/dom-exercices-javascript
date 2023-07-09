@@ -12,11 +12,11 @@
 
 ## Description:
 
-A single page of exercises for manipulating the Javascript Document Object Model (DOM).
-
--Refactored and adapted to me from Professor Jon Mircha's JavaScript course. With him I learn a lot. Thanks Jon!.
+-A single page of exercises for manipulating the Javascript Document Object Model (DOM).
 
 -It is a responsive design. Made with HTML, CSS and JavaScript
+
+-Refactored and adapted to me from Professor Jon Mircha's JavaScript course. With him I learn a lot. Thanks Jon!.
 
 ## Steps:
 
@@ -30,8 +30,8 @@ A single page of exercises for manipulating the Javascript Document Object Model
 - 8: Create section 6: Device Detection(User Agent)
 - 9: Create section 7: Network detection
 - 10: Create section 8: Webcam detection
-
-## FullDescription:
+- 11: Create section 9: Geolocation detection
+- 12 : Create section 10: Search Filters
 
 ### I made use of:
 
@@ -41,7 +41,7 @@ A single page of exercises for manipulating the Javascript Document Object Model
 
 ## Author:
 
-- Rodrigo C
+- RM Design
 
 ---
 
@@ -55,9 +55,9 @@ A single page of exercises for manipulating the Javascript Document Object Model
 
 -Una sola página de ejercicios para manipular el modelo de objeto de documento (DOM) de Javascript.
 
--Refactorizado y adaptado a mi del curso de JavaScript del profesor Jon Mircha. Con quien aprendo mucho. Gracias Jon!.
-
 -Es un diseño responsivo. Hecho con HTML, CSS y Javascript.
+
+-Refactorizado y adaptado a mi del curso de JavaScript del profesor Jon Mircha. Con quien se aprende mucho. Gracias Jon!.
 
 ## Pasos:
 
@@ -65,16 +65,14 @@ A single page of exercises for manipulating the Javascript Document Object Model
 - 2: Crear seccion 1: Relog digital y Alarma sonora.
 - 3: Crear seccion 2: Eventos de teclado.
 - 4: Crear seccion 3: Cuenta regresiva a año nuevo.
-- 5: Crear el boton-scroll y el boton-tema.
+- 5: Crear el boton-scroll y el boton cambio de tema.
 - 6: Crear seccion 4: Responsive con Javascript
 - 7: Crear seccion 5: Responsive Tester
 - 8: Crear seccion 6: Deteccion de dispositivos(User Agent)
 - 9: Crear seccion 7: Deteccion de conexion de red
-  -10: Crear seccion 8: Deteccion de camara web
-
-## Sito Web:
-
-## Descripcion Completa:
+- 10: Crear seccion 8: Deteccion de camara web
+- 11: Crear seccion 9: Deteccion de geolocalizacion
+- 12 : Crear seccion 19: Filtros de búsqueda
 
 ### Hice uso de
 
@@ -84,6 +82,6 @@ A single page of exercises for manipulating the Javascript Document Object Model
 
 ## Autor:
 
-- Rodrigo C
+- RM Design
 
 ---
