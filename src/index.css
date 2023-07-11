@@ -367,6 +367,28 @@ video {
   order: 1;
 }
 
+/* **********     draw    ********** */
+
+.section11 p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section11 button {
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+.section11 button:hover {
+  background-color: var(--color-yellow);
+  border: 1px solid var(--text-color-light);
+  cursor: pointer;
+}
+
+
+
 /******* Media  */
 
 @media screen and (width >= 640px) {

@@ -32,6 +32,7 @@
 - 10: Create section 8: Webcam detection
 - 11: Create section 9: Geolocation detection
 - 12 : Create section 10: Search Filters
+- 13: Create section 11: Digital Giveaway
 
 ### I made use of:
 
@@ -72,7 +73,8 @@
 - 9: Crear seccion 7: Deteccion de conexion de red
 - 10: Crear seccion 8: Deteccion de camara web
 - 11: Crear seccion 9: Deteccion de geolocalizacion
-- 12 : Crear seccion 19: Filtros de búsqueda
+- 12 : Crear seccion 10: Filtros de búsqueda
+- 13 : Crear seccion 11: Sorteo Digital
 
 ### Hice uso de
 

@@ -10,7 +10,8 @@ import userDeviceInfo from "./components/detection_devices.js";
 import networkStatus from "./components/network_detection.js";
 import webCam from "./components/webcam_detection.js";
 import getGeoLocation from "./components/geolocation.js";
-import searchFilters from "./components/search_ filters.js";
+import searchFilters from "./components/search_filters.js";
+import draw from "./components/giveaway.js";
 
 document.addEventListener("DOMContentLoaded", e => {
   hamburgerMenu(".panel-btn", ".panel-aside", ".menu a");
@@ -29,6 +30,7 @@ document.addEventListener("DOMContentLoaded", e => {
   webCam("webcam");
   getGeoLocation("geolocation");
   searchFilters(".card-filter", ".card");
+  draw("#winner-btn", ".player");
 });
 
 document.addEventListener("keydown", e => {
