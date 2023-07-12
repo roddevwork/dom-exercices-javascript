@@ -33,6 +33,7 @@
 - 11: Create section 9: Geolocation detection
 - 12 : Create section 10: Search Filters
 - 13: Create section 11: Digital Giveaway
+- 14: Create section 12: Responsive Slider
 
 ### I made use of:
 
@@ -75,6 +76,7 @@
 - 11: Crear seccion 9: Deteccion de geolocalizacion
 - 12 : Crear seccion 10: Filtros de búsqueda
 - 13 : Crear seccion 11: Sorteo Digital
+- 14 : Crear seccion 12: Carrusel de Imagenes
 
 ### Hice uso de
 
