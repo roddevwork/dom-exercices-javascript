@@ -13,6 +13,7 @@ import getGeoLocation from "./components/geolocation.js";
 import searchFilters from "./components/search_filters.js";
 import draw from "./components/giveaway.js";
 import slider from "./components/carousel.js";
+import scrollSpy from "./components/scroll_spy.js";
 
 document.addEventListener("DOMContentLoaded", e => {
   hamburgerMenu(".panel-btn", ".panel-aside", ".menu a");
@@ -33,6 +34,7 @@ document.addEventListener("DOMContentLoaded", e => {
   searchFilters(".card-filter", ".card");
   draw("#winner-btn", ".player");
   slider();
+  scrollSpy();
 });
 
 document.addEventListener("keydown", e => {

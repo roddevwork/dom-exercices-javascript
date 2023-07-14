@@ -99,7 +99,6 @@ video {
 
 .menu {
   width: inherit;
-  padding: 2.7rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -521,5 +520,65 @@ video {
     width: inherit;
     object-fit: cover;
     object-position: 50% 0%;
+  }
+}
+
+/* **********     ScrollSpy     ********** */
+
+@media screen and (width >= 1024px) {
+  body {
+    display: grid;
+    grid-template: "header header" 4rem "main panel" auto / 80% 20%;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  .panel-aside {
+    grid-area: panel;
+    align-self: start;
+    position: sticky;
+    top: 4rem;
+    justify-content: flex-start;
+    color: #fff;
+    transform: translate(0, 0);
+    opacity: 1;
+    visibility: visible;
+    overflow-y: auto;
+    background-color: var(--second-background-color);
+    height: 100vh;
+  }
+
+  .panel-btn {
+    display: none;
+  }
+
+  .menu {
+    justify-content: start;
+    text-align: right;
+  }
+
+  .menu a {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f7df1e;
+  }
+
+  .menu a:hover,
+  .menu a.active {
+    color: var(--second-background-color);
+    background-color: var(--color-yellow);
+  }
+
+  .scroll-top-btn {
+    right: initial;
+    left: calc(4.25rem + 1vw);
   }
 }

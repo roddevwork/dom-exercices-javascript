@@ -16,7 +16,7 @@
 
 -It is a responsive design. Made with HTML, CSS and JavaScript
 
--Refactored and adapted to me from Professor Jon Mircha's JavaScript course. With him I learn a lot. Thanks Jon!.
+-Refactored and adapted to me from Professor Jon Mircha's . With him I learn a lot. Thanks Jon!.
 
 ## Steps:
 
@@ -34,6 +34,7 @@
 - 12 : Create section 10: Search Filters
 - 13: Create section 11: Digital Giveaway
 - 14: Create section 12: Responsive Slider
+- 15: Create ScrollSpy with Intersection Observer
 
 ### I made use of:
 
@@ -59,7 +60,7 @@
 
 -Es un diseño responsivo. Hecho con HTML, CSS y Javascript.
 
--Refactorizado y adaptado a mi del curso de JavaScript del profesor Jon Mircha. Con quien se aprende mucho. Gracias Jon!.
+-Refactorizado y adaptado a mi del curso del profesor Jon Mircha. Con quien se aprende mucho. Gracias Jon!.
 
 ## Pasos:
 
@@ -77,6 +78,7 @@
 - 12 : Crear seccion 10: Filtros de búsqueda
 - 13 : Crear seccion 11: Sorteo Digital
 - 14 : Crear seccion 12: Carrusel de Imagenes
+- 15 : Crear ScrollSpy con Intersection Observer
 
 ### Hice uso de
 
