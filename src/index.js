@@ -18,7 +18,7 @@ import scrollSpy from "./components/scroll_spy.js";
 document.addEventListener("DOMContentLoaded", e => {
   hamburgerMenu(".panel-btn", ".panel-aside", ".menu a");
   digitalClock("#digital-clock", "#activate-clock", "#disable-clock");
-  soundAlarm("../public/sounds/alarm_clock.ogg ", "#activate-alarm", "#disable-alarm");
+  soundAlarm("src/assets/alarm_clock.ogg ", "#activate-alarm", "#disable-alarm");
   countDown("countdown", "Jan 01,2024 00:00:00", "Happy new year!!");
   scrollTopButton(".scroll-top-btn");
 

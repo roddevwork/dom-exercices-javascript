@@ -27,7 +27,7 @@ export function soundAlarm(sound, btnPlay, btnStop) {
     if (e.target.matches(btnPlay)) {
       alarmTime = setTimeout(() => {
         $alarm.play();
-      }, 1000);
+      }, 2000);
       e.target.disabled = true;
     }
     if (e.target.matches(btnStop)) {
